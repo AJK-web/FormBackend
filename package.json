@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "echo 'No build step required for backend'",
-    "deploy": "npm install && npm start"
-  },
-  "type":"module",
+    "start": "node server.js",
+    "vercel-build": "echo 'Build step not needed'"
+  }
+  ,
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
